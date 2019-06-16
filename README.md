@@ -19,7 +19,7 @@ Select one or multiple pages from within the Target sitemap. Then click on the r
 The scanner extension will use the selected URLs and pass them to the checks. 
 Each check is self contained and will decide what to use from the provided URL, e.g. just the host and port e.g. to use it as a base to build the CRX or Felix Console URLs and to test dispatcher bypasses for them or the complete URL e.g. to verify if the particular page is vulnerable for enumeration.
 
-![AEM Actions Menu](https://github.com/thomashartm/burp-aem-scanner/blob/gh-pages/images/aem-actions.jpg "AEM Actions")
+![AEM Actions Menu](https://github.com/vulnerabilitylabs/aem-scanner/blob/gh-pages/images/aem-actions.jpg "AEM Actions")
 
 The security checks will be executed by a thread pool in the background to check progress, please look into the extender output.
 
@@ -51,5 +51,5 @@ Only the selected URLs will be used as a base for the respective scan.
 If you have suggestions and ideas for improvement feel free to contact me or just raise a pull request. I'm happy to discuss it.
 
 # Credits
-It is based on Adobe's AEM/Dispatcher security checklist and implements many of the checks discovered and highlighted by Mikhail Egorov <0ang3el@gmail.com> https://github.com/0ang3el/aem-hacker/blob/master/aem_hacker.py
+It is based on Adobe's AEM/Dispatcher security checklist and implements many of the checks discovered and highlighted by Mikhail Egorov <vulnlabs.contact@gmail.com> https://github.com/vulnerabilitylabs/aem-hacker/blob/master/aem_hacker.py
 
